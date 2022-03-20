@@ -1,0 +1,4 @@
+flask
+Flask-SQLAlchemy
+flask-login
+python 3.8.3
