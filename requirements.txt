@@ -11,8 +11,8 @@ python 3.8.3
 3. Run command prompt in the folder and run `pip install python 3.8.3`
 4.Run command prompt in the folder and run `pip install Flask-SQLAlchemy`
 5.Run command prompt in the folder and run `pip install flask-login`
-5. In your browser go to `http://127.0.0.1:5000/`
-6. You are ready to go!
+6. In your browser go to `http://127.0.0.1:5000/`
+7. You are ready to go!
 
 ## Viewing The App
 
