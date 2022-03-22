@@ -43,11 +43,39 @@ I also added the SQLAlchemy toolkit
  
 Which gives application developers the complete power and flexibility of SQL.
  
+## Model
+For the model, I have used a Structured Query Language or SQL database named ```database.db```. 
+It is a relational database management system consisting of 2
+tables namely
+ information, users. 
+These tables and their respective fields can be viewed using the command .schema under sqlite3 (an example). 
+Every users being unique have their own ids which act as primary keys aer nd these keys 
+so as to facilitate easy data management across tables.
+ 
 SQLAlchemy provides a full suite of well known enterprise-level persistence patterns, designed for efficient
  
  and high performing database access, 
  
  adapted into a simple and Pythonic domain language.
+ 
+ ## More on Flask
+As mentioned earlier, the framework implies the use of a certain structure of directory / file listing as shown below:
+
+static/ contains all the static files like , javascript files.
+
+templates/ 
+contains all the html files used to implement the webpages with a ```base.html```  file acting as the base for other files.
+```database.db``` is the database used to store all data .
+
+```app.py``` and ```auth.py``` and  ```main.py``` and are the files handling the server and responding 
+ 
+ to get and post requests made to it 
+Responsible for the database
+```models.py``` .
+requirements.txt is a text file which contains the names of additional libraries / software that may be required to host and run the application.
+By default, flask run command starts flask's built in webserver and runs it on localhost. 
+ 
+ Using flask run -- http://127.0.0.1:5000/ changes it to run on all your machine's IP addresses.
  
 Now when you are able to log in, you will be able to keep all the notes and ideas that were in your mind and refer to them 
  
