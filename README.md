@@ -1,31 +1,32 @@
-# My Note
-#### Video Demo:  <URL HERE>
-#### Description: https://www.youtube.com/
-Transcription: "My Notes"
+# My Notes Web Application
+
+## This is my final project for Harvard's CS50x : Introduction to Computer Science course.
+
+#### Video Demo:   https://www.youtube.com/
+#### Description:
+ "My Notes"
 
 Hello, my name is 
  
- #### Hadji Rami 
- 
- and i'm from
- 
-from M'sila
- 
- Country
- 
- Algeria
+ #### Hadji Rami  and i'm from M'sila Country Algeria
 
-This is my final project for Harvard's CS50.
+## This is my final project for Harvard's CS50.
+ 
+Here I will give some details about the project. 
+## Introduction
+  This *My Notes*  It is an easy to use website You can take notes. You can write down
+  
+  what is on your mind quickly and refer to it at any 
+ time 
+and from anywhere. 
+On this site, you can easily write notes, memos, emails, letters and shopping lists.
 
-My Note It is an easy to use website You can take notes. You can write down what is on your mind quickly and refer to it at any 
- time and from anywhere. On this site, you can easily write notes, memos, emails, letters and shopping lists. And many, many ideas.
-
- 
-I created a project notes
- 
-By using the Flask framework
- 
-And a little JavaScript and HTML & CSS
+And many, many ideas.
+ application that is designed using the [Flask](https://flask.palletsprojects.com/en/) framework.  
+where users can register, login, . 
+The application follows a **Model - View ** design pattern having components developed using Flask  
+(ie Python for back-end), SQL database to act as the model and finally the front-end developed
+using html css and javascript with the help of frameworks like Bootsrap 4 and more.
 
 ### My project consists of 3 web pages. These pages are inside the templates file
  
