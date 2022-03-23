@@ -36,6 +36,26 @@ using html css and javascript with the help of frameworks like Bootsrap 4 and mo
  
 #### -3-home
 
+```
+/app
+    - views.py
+    - models.py
+    - auth.py
+    - __init__.py
+    /services
+        - main.py
+    /templates
+        - base.html
+        - home.html
+        - login.html
+        - sign_up.html
+    
+   /static
+       - index.js
+   /styles
+       - mainpage.css
+```
+
 The front end is written mostly in Python with some libraries built in for things like coding libraries, hashing passwords, 
  
  and checking and matching hash passwords at login.
@@ -60,9 +80,10 @@ SQLAlchemy provides a full suite of well known enterprise-level persistence patt
  adapted into a simple and Pythonic domain language.
  
  ## More on Flask
-As mentioned earlier, the framework implies the use of a certain structure of directory / file listing as shown below:
+As mentioned earlier, the framework implies the use of a certain structure of directory/file listing as shown below:
 
-static/ contains all the static files like , javascript files.
+static / contains all the static files like , javascript files & styles /```mainpage.css```.
+
 
 templates/ 
 contains all the html files used to implement the webpages with a ```base.html```  file acting as the base for other files.
