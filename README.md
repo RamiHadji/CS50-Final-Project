@@ -6,9 +6,8 @@
 #### Description:
  "My Notes"
 
-Hello, my name is 
- 
- #### Hadji Rami  and i'm from M'sila Country Algeria
+## Hello, my name is: 
+ #### Hadji Rami I am from Algeria and I live in M'sila
 
 ## This is my final project for Harvard's CS50.
  
